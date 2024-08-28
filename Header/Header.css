@@ -1,0 +1,52 @@
+.header {
+    height: 38vw;
+    margin: 30px auto;
+    background: url('../../../public/header_img.jpg') no-repeat ;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px; 
+}
+
+.header_contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 4vw;
+    max-width: 50%;
+    bottom:5%;
+    left: 4vw;
+    animation: fadeIn 3s;
+}
+.header_contents h2{
+  
+    font-weight: 500;
+    color: red;
+    font-size: max(4.5vw, 22px);
+   
+}
+.header_contents p{
+   
+    letter-spacing: 2px;
+    font-weight: 500;
+    background: #0000005c;
+    padding: 5px;
+    color: whitesmoke;
+    font-size: 20px;
+    
+}
+.button{
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding:1vw 2.3vw;
+    background-color: white;
+    font-size: max(1vw, 13px);
+    cursor: pointer;
+    border-radius: 50px;
+   
+}
+.button:hover{
+    background-color: #f1f1f1;
+}
+

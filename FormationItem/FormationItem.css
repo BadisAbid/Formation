@@ -1,0 +1,174 @@
+/* kif trefréchi el page les photo ya3mlou kil shadow ak7el*/
+.formation-item{
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000015;
+    transition: 0.3s;
+    animation: fadeIn 1s;
+}
+
+.formation-item-image {
+  width: 30%;
+  border-radius: 17px 15px 0px 0px;
+  height: 100px;
+}
+.formation-item-info{
+    padding: 20px;
+}
+
+.formation-item-name-rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.formation-item-name-rating p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.formation-item-name-rating img{
+  width: 70px;
+}
+
+.foramation-item-description{
+    color: #676767;
+    font-size: 16px;
+}
+.formation-item-duree{
+    font-size: 16px;
+    font-weight: 500;
+    color: blue;
+    margin: 10px 0px;
+    float:right;
+   
+}
+.formation-item-price{
+    font-size: 20px;
+    font-weight: 500;
+    color: red;
+    margin: 10px 0px;
+    
+    
+    
+}
+
+.formation-item-bag-view img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.formation-item-bag-view {
+    display: flex;
+    justify-content: flex-end; /* Aligns items to the right */
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+/*****************************************************/
+.popup-overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 1000; /* Ensures the popup is above other content */
+}
+
+.popup-content {
+  background-color: #fff; /* White background */
+  padding: 20px; /* Space inside the popup */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+  text-align: center; /* Center text inside the popup */
+  max-width: 90%; /* Responsive width */
+  width: 300px; /* Default width */
+  position: relative;
+  }
+
+
+
+.close-popup {
+  position: absolute;
+  top: 20px; /* Adjusted top margin */
+  right: 17px; /* Adjusted right margin */
+  cursor: pointer;
+}
+
+
+.popup-image {
+  width: 50%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.formation-item-view {
+  cursor: pointer;
+}
+
+.popup-inscription_icon img {
+  cursor: pointer;
+  margin-top: 5px;
+  width: 30px;
+}
+.popup-price{
+  font-size: 20px;
+  font-weight: 500;
+  color: red;
+  margin: 10px 0px;
+  float: left;
+}
+.popup-description{
+  margin: 10px 0px;
+
+}
+.popup-duree{
+  font-size: 16px;
+  font-weight: 500;
+  color: blue;
+  margin: 10px 0px;
+  float:right;
+}
+.popup-content p {
+  font-size: 16px; /* Slightly larger font for readability */
+  margin-bottom: 20px; /* Space between text and button */
+  }
+  
+
+
+
+
+
+
+/* ************************************************************** */
+
+
+
+
+/*Bag_icon */
+
+
+
+.popup-content button {
+background-color: #007bff; /* Blue background */
+color: #fff; /* White text */
+padding: 10px 20px; /* Padding inside the button */
+border: none; /* Remove default border */
+border-radius: 5px; /* Rounded corners */
+cursor: pointer; /* Pointer cursor on hover */
+font-size: 14px; /* Button font size */
+transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.popup-content button:hover {
+background-color: #0056b3; /* Darker blue on hover */
+}
+
